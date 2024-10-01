@@ -12,7 +12,7 @@ public with sharing class ApexTypesController {
             '" as String, and "' +
             wrapper.someInteger +
             '" as Integer value. The list contained ' +
-            wrapper.someList.size() +
+            wrapper.someList +
             ' items.';
         return response;
     }
